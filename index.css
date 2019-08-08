@@ -1,0 +1,36 @@
+li {
+  display: inline-block;
+  font-family: sans-serif;
+  color: red;
+  margin-left: 1px;
+}
+.cart {height: 15px;
+  margin-left: 20px;
+  margin-right: 0px;
+  }
+
+.logo {
+  height: 40px; margin-right: 40px;}
+
+
+
+h3 {display: inline-block;
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;}
+
+.top-right {float: right;
+  margin-left: 35px;
+  margin-top: 40px;}
+
+.main-shoe {height: 180px; width: 300px;
+  }
+
+.nav {display: inline-block;}
+
+.product-banner {height: 200px;
+  background-color: red;}
+
+.shoe1 {height: 130px; width: 200px;}
+.shoe2 {height: 130px; width: 200px;}
+.shoe3 {height: 130px; width: 200px;}
