@@ -14,23 +14,96 @@ li {
 
 
 
-h3 {display: inline-block;
+h5 {display: inline-block;
     font-family: sans-serif;
-    color: red;
+    color: orange;
     font-size: 20px;}
+
 
 .top-right {float: right;
   margin-left: 35px;
-  margin-top: 40px;}
+  margin-top: 40px;
+  }
 
-.main-shoe {height: 180px; width: 300px;
+  h6 {
+    font-family: sans-serif;
+    color: black;
+    margin-left: 1px;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    color: white;
+    /* float: right; */
+    margin-right: 300px;
+  }
+  h2 {
+    font-family: sans-serif;
+  }
+  h3 {
+    font-family: sans-serif;
+  }
+  h4 {
+    font-family: sans-serif;
+  }
+
+.main-shoe {height: 250px; width: 400px;
   }
 
 .nav {display: inline-block;}
 
-.product-banner {height: 200px;
-  background-color: red;}
+.product-banner {height: 300px;
+  background: linear-gradient(to left, #E32323, #E32490);}
+
+.banner-content {
+  float: right;
+}
 
 .shoe1 {height: 130px; width: 200px;}
 .shoe2 {height: 130px; width: 200px;}
 .shoe3 {height: 130px; width: 200px;}
+
+.bottom-shoes {
+  background-color: red;
+  height: 200px;
+}
+.bottom-shoes li {
+  color: white;
+}
+
+.Rec-shoes h3 {
+  background-color: pink;
+  height: 50px;
+  text-align: center;
+  font-weight: 400;
+}
+.prod-details {
+  display: inline-block;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default */
+h1 {
+  font-size: 14px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
+}
